@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.MainPage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 200vh;
+    background-color: #272727;
+}
+.NavBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: #ffffff00;
+    border-radius: 0px;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+.logo h2{
+    color: #ffffff;
+    font-weight: 500;
+}
+.NavOpener{
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    width: 80px;
+    height: 10px;
+}
+.bar{
+    width: 100%;
+    height: 2px;
+    margin-top: 2px;
+    background-color: #ffffff;
+}
+.ContentPage{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 200vh;
+    background-color: #ffffff00;
+}
+.Portion{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: #ffffff00;
+}
+#P1{
+    top: 10%;
+}
+#P1R{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.P1T{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #ffffff;
+}
+.P1T::after{
+    content: 'Full Stack Developer';
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    color: #ffffff;
+    opacity: 1;
+    font-weight: 200;
+    font-size: 20px;
+}
+.P1Bli{
+    list-style: none;
+    font-weight: 300;
+    color: #ffffff;
+}
+.P1Bli li{
+    margin-bottom: 5px;
+}
+.P1Blibox{
+    position: absolute;
+    top: 75px;
+    left: 2em;
+    background-color: #ffffff;
+    width: 1px;
+    height: calc(6.4em + 25px);
+}
+.P1Blibox ul{
+    position: absolute;
+    left: 7px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.P1Blibox ul li{
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+#tcolor1{
+    color: #ff7575;
+}
+#tcolor2{
+    color: #75e1ff;
+}
+#tcolor3{
+    color: #a375ff;
+}
+#tcolor4{
+    color: #ffe675;
+}
+#P1L{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.PictureBox{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 200px;
+    height: 200px;
+    background-image: url(profile.png);
+    background-size: cover;
+    background-position: center;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background-color: #272727;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff;
+}
+#P2{
+    top: calc(10% + 250px);
+}
+.P2T{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.P2T h2{
+    color: #ffffff;
+    font-size: 35px;
+}
+.P2B {
+    position: absolute;
+    top: 45px;
+}
+.P2B p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+}
+.P2F{
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+.BPortion{
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    top: calc(10% + 550px);
+}
+.BPT{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.BPT h2{
+    font-size: 35px;
+    color: #ffffff;
+}
+.BPO{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#BPO1L,#BPO2L,#BPO3L,#BPO4L,#BPO5L{
+    margin-right: 30px;
+}
+#BPO1R,#BPO2R,#BPO3R,#BPO4R,#BPO5R{
+    width: 400px;
+    height: 20px;
+    border: 2px solid#ffffff;
+}
+
+#BPO1L h4,#BPO2L h4,#BPO3L h4,#BPO4L h4,#BPO5L h4{
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-left: 20px;
+}
+#BPO1L::after{
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+#BPO1B,#BPO2B,#BPO3B,#BPO4B,#BPO5B{
+    width: 400px;
+    height: 20px;
+    background-color: #ffffff;
+    transform: scaleX(.5);
+    transform-origin: left;
+    margin-top: -20px;
+}
+#BPO1B{
+    transform: scaleX(.6);
+}
+#BPO2B{
+    transform: scaleX(.7);
+    background-color: #91ff75;
+}
+#BPO3B{
+    transform: scaleX(.8);
+    background-color: #75e1ff;
+}
+#BPO4B{
+    transform: scaleX(.65);
+    background-color: #ffe675;
+}
+#BPO5B{
+    transform: scaleX(.9);
+    background-color: #ff7575;
+}
+.CopyRightP{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: #ffffff10;
+}
+.CTL{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.CTL h3{
+    text-align: right;
+    color: #ffffff50;
+    font-weight: 200;
+}
+.CTR{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.CTR h3{
+    text-align: left;
+    color: #ffffff50;
+    font-weight: 200;
+}
+.CTR::before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
