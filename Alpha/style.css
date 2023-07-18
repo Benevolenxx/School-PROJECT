@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background-color: #101010;
+}
+.LandingPage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(Background_Image.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.PageTwo{
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #101010;
+}
+.TitleText{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+.TitleH{
+    color: #ffffff;
+    font-size: 55px;
+}
+.coloredtext{
+    color: #D93531;
+}
+.NavBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff00;
+}
+.Logo{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 25px;
+}
+.Bars{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.Bar{
+    width: 80px;
+    background-color: #ffffff;
+    height: 2px;
+    margin: 2px;
+}
+.ChapterOne{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ChapterOne h2{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 50px;
+}
+.ChapterOne::after{
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #D93531;
+}
+.ChapterOnePortionOne{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 5%;
+}
+.ChapterOnePortionOne h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+.ChapterOnePortionOne p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff80;
+}
+.u{
+    color: #D93531;
+}
+.ChapterOnePortionTwo{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+}
+.ChapterOnePortionTwo .GenZero{
+    color: #ffffff;
+    font-size: 30px;
+}
